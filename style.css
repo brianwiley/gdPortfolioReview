@@ -29,10 +29,6 @@ hr {
     width: 335px;
 }
 
-.grid hr {
-    width: 100%;
-}
-
 li {
     margin-bottom: 10px;
     list-style-type: none;
@@ -57,6 +53,10 @@ p {
     padding-left: 20px;
 }
 
+ul {
+    padding-inline-start: 20px;
+}
+
 .container {
     max-width: 800px;
 }
@@ -65,6 +65,10 @@ p {
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 40px;
+}
+
+.grid hr {
+    width: 100%;
 }
 
 .list-bold {
@@ -76,6 +80,32 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+
+    body {
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    /* I want this to target ONLY the first h4 tag within the .grid class so as to minimize the space between "Itemized Inventory"  and "tom's 277 Projects"
+
+    .grid h4:first-of-type {
+        margin-block-start: 0px;
+    }
+    */
+
+    header {
+        background-color: #0033A0;
+        padding-top: 5px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+    }
+
     .grid {
         display: grid;
         grid-template-columns:auto;
