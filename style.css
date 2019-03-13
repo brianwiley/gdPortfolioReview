@@ -29,9 +29,16 @@ hr {
     width: 335px;
 }
 
+.grid hr {
+    width: 100%;
+}
+
 li {
     margin-bottom: 10px;
     list-style-type: none;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 li:before {
@@ -56,7 +63,7 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     grid-column-gap: 40px;
 }
 
