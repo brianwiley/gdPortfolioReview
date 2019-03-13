@@ -61,6 +61,27 @@ ul {
     padding-inline-start: 20px;
 }
 
+.btn {
+    background-color: #0033A0;
+    border: solid 5px #ffffff;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: white;
+    color: #0033A0;
+}
+
 .container {
     max-width: 800px;
 }
