@@ -80,10 +80,21 @@ ul {
     color: #0033A0;
 }
 
-.container {
+.container1{
+    display: flex;
+}
+
+.container-left {
     max-width: 800px;
-    display: inline;
-    float: left;
+    float:left;
+    flex: 2;
+}
+
+.container-right{
+    float:right;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .grid {
@@ -107,6 +118,10 @@ ul {
     width: 210px;
 }
 
+.quote{
+    display: flex;
+}
+
 .list-bold {
     font-weight: 600;
 }
@@ -115,15 +130,14 @@ ul {
     font-weight: 100;
 }
 
-.quote {
-    display: inline-block;
-    height: 800px;
-}
-
 @media only screen and (max-width: 600px) {
 
     body {
         margin-right: 20px;
+    }
+
+    .container-right{
+        display: none;
     }
 
     h1 {
