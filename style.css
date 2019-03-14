@@ -24,10 +24,6 @@ h3 {
     line-height: 18px;
 }
 
-header {
-    max-width: 800px;
-}
-
 hr {
     width: auto;
 }
@@ -86,6 +82,8 @@ ul {
 
 .container {
     max-width: 800px;
+    display: inline;
+    float: left;
 }
 
 .grid {
@@ -98,12 +96,28 @@ ul {
     width: auto;
 }
 
+.inspiration {
+    font-family: Tillana;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    font-size: 16px;
+    position: fixed;
+    top: 50%;
+    width: 210px;
+}
+
 .list-bold {
     font-weight: 600;
 }
 
 .list-light {
     font-weight: 100;
+}
+
+.quote {
+    display: inline-block;
+    height: 800px;
 }
 
 @media only screen and (max-width: 600px) {
