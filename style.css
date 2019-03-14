@@ -118,6 +118,19 @@ ul {
     width: 210px;
 }
 
+.inspiration:hover{
+    font-size: 0;
+}
+
+.inspiration:hover:after{
+    content: attr(data-hover);
+    font-family: Tillana;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+}
+
 .quote{
     display: flex;
 }
