@@ -65,10 +65,11 @@ ul {
     font-family: 'Space Mono', monospace;
     font-size: 20px;
     font-weight: 700;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -111,9 +112,9 @@ ul {
     font-family: Tillana;
     font-style: normal;
     font-weight: 800;
-    line-height: 24px;
     font-size: 16px;
     position: fixed;
+    text-align: center;
     top: 50%;
     width: 210px;
 }
@@ -125,7 +126,6 @@ ul {
 .inspiration:hover:after{
     content: attr(data-hover);
     font-family: Tillana;
-    line-height: 24px;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
